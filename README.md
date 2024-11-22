@@ -1,20 +1,6 @@
 As Part of Automated Test Suite Development Assignment I have created this project using Javascript and Cypress framework.
-Under ./cypress/e2e there is one spec file test.cy.js which covers
-Customer login to https://www.saucedemo.com/
-Selection of 3 random items
-Store those random item’s Price and Name with cy.wrap() function
-Click on those selected items to add them to cart
-Navigate to Cart Page
-Assert Item's Price and Name from stored variables
-Click on Check out button
-Fill in User information like FirstName, LastName, Postal Code
-Click continue Button
-On the Overview page Assert Payment status is visible.
-Assert shipping details are visible
-Assert total value of items 
-Click on finish button
-Assert back to home button is visible along with Thank you message 
-Added assertions for all page titles
+# Under ./cypress/e2e there is one spec file test.cy.js which covers
+-	Customer login to https://www.saucedemo.com/  Selection of 3 random items  Store those random item’s Price and Name with cy.wrap() function  Click on those selected items to add them to cart  Navigate to Cart Page  Assert Item's Price and Name from stored variables  Click on Check out button  Fill in User information like FirstName, LastName, Postal Code  Click continue Button  On the Overview page Assert Payment status is visible.  Assert shipping details are visible  Assert total value of items  Click on finish button  Assert back to home button is visible along with Thank you message  Added assertions for all page titles
 
 
 Framework folder structure : 
